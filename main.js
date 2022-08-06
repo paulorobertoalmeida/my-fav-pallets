@@ -1,8 +1,10 @@
+//color that the user typed
 const inputColor = document.getElementsByClassName('')
 
+//this is the variable where the colors will be stored
 const colorStored = "";
 
-// this function stores a color to be used in the future
+// this function pushed a color into our variable to be used in the future
 const myColors =((inputColor)=>{
     colorStored.push(inputColor);
     return colorStored;
