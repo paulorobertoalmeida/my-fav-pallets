@@ -21,3 +21,8 @@ const translatePallets = ((inputColor) =>{
 
     }
 })
+
+//Create a box to select RGB values 0 till 255.
+const selectColorBox = (()=> {
+    
+})
